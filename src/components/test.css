@@ -1,0 +1,248 @@
+#logo {
+    position: relative;
+    font-family: "Avenir Next", sans-serif;
+    font-weight: 900;
+    font-size: 24px;
+    text-transform: uppercase;
+    font-style: italic;
+    letter-spacing: 0.05em;
+    display: inline-block;
+  }
+  
+  #logo:before {
+    position: absolute;
+    left: 0;
+    top: 0;
+    content: attr(filter-content);
+    filter: url(#motion-blur-filter);
+
+  }
+  
+  
+  #svg {
+    display: none;
+  }
+
+  .active{
+     color :black !important;
+
+     
+  }
+
+  .gallery{
+     -webkit-column-count: 2;
+     -moz-column-count: 2;
+     column-count: 2;
+     -webkit-column-width: 10%;
+     -moz-column-width: 10%;
+     column-width: 10%;
+     padding : 0 30px 30px;
+     margin-top: 20px;
+  
+
+
+  }
+
+  .gallery .pics{
+    -webkit-transition: all 350ms ease;
+    transition: all 350ms ease;
+    cursor: pointer;
+    margin-bottom: 8px;
+  
+  
+  }
+
+  .pics{
+  
+    border-radius: 7px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.5);
+    margin-left:20px;
+    margin-right:20px;
+    
+
+  }
+
+video{
+  height:210px;
+  width:150px;
+  border-radius: 7px;
+  
+}
+img{
+
+  border-radius: 7px;
+  
+}
+ .pics:hover{
+  transition: all 0.8s ease;
+  transform:scale(1.03);
+} 
+
+.btn{
+  position:relative;
+  height:40px;
+  width:120px;
+  background-color: rgba(255,255,255,0.2);
+  border: 2px solid #3b82f6;
+  backdrop-filter: blur(30px);
+  margin:15px;
+  cursor:pointer;
+  z-index:1;
+  color:black;
+  
+  }
+
+  .btn:hover{
+    color:white;
+  }
+  
+  .btn:before{
+      transition:0.5s all ease;
+      position:absolute;
+      top:0;
+      left:50%;
+      right:50%;
+      bottom:0;
+      opacity:0;
+      content:"";
+      background: #3b82f6;
+  
+  }
+  
+  .btn:hover:before{
+      transition:0.5s all ease;
+      left :0;
+      right:0;
+      opacity:1;
+      z-index:-1;
+  }
+
+
+
+
+  @media (max-width: 991px){
+    .gallery{
+      -webkit-column-count: 2;
+      -moz-column-count: 2;
+      column-count: 2;
+ 
+   }
+   video{
+     height:200px;
+     width:200px;
+   }
+  }
+  @media (max-width: 500px){
+    .gallery{
+      -webkit-column-count: 1;
+      -moz-column-count: 1;
+      column-count: 1;
+      -webkit-column-width: 100%;
+      -moz-column-width: 100%;
+      column-width: 100%;
+ 
+   }
+
+   video{
+    height:160px;
+    width:200px;
+  }
+ 
+  }
+
+  .design{
+    height:100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    background : rgba(219, 234, 254);
+    color:white;
+    border-radius: 7px;
+    justify-content:center;
+    text-align : center;
+
+  }
+
+  .circle-outer
+{
+    position: relative;
+    height:40px;
+    width:40px;
+    left: 10px;
+    margin: 30px;
+
+
+    
+}
+.circle a
+{
+    position: rela;
+    top: 33%;
+    left:35%;
+    color: black;
+    font-size: 15px;
+    z-index: 1;
+    
+}
+.circle
+{
+    position:relative;
+    justify-content:center;
+    height:49px;
+    width:49px;
+    align-items:center;
+    border-radius: 50%;
+    background:#dbeafe;
+    backdrop-filter: blur(10px);
+    top:40px;
+
+}
+
+
+.circle i{
+  position : relative;
+  top:24%;
+  left : 30%;
+  font-size : 25px;
+
+
+}
+
+
+.circle:hover
+{
+
+    transform:  translate(0px , -10px) ;
+    transition:all 0.5s ease;
+    
+}
+.circle1:hover
+{
+  
+    background: #6cc644;
+    transition:all 0.5s ease;
+}
+.circle2:hover
+{
+   
+    background: #00aced;
+    transition:all 0.5s ease;
+}
+.circle3:hover
+{
+    
+    background: #0077b5;
+    transition:all 0.5s ease;
+}
+.circle4:hover
+{
+    
+    background: #d81c3f;
+    transition:all 0.5s ease;
+}
+.circle:hover i
+{
+    color: white;
+    transition: all 0.5s;
+}
+
