@@ -14,7 +14,7 @@ const Projects = () => {
    {
       id: 1,
       head: "SCI-FI BLOGS",
-      description:" A blogging site for fans of science fiction films. This site has a user and admin dashboard with complete CRUD capabilities,JWT-based authentication, role-based authorization, SEO, Google Analytics integration, a commenting system, and Google social login..",
+      description:" A blogging site for fans of science fiction films. This site has a user and admin dashboard with complete CRUD capabilities,JWT-based authentication, a commenting system, and Google social login.",
       tech: "NextJS, NodeJS, Express, MongoDB, Bootstrap",
       vidSrc: Vid1,
     },{
@@ -58,6 +58,7 @@ const Projects = () => {
                   <div className="design">
                     <Title>{items.head}</Title>
                     <Des>{items.description}</Des>
+
                     <Tech>{items.tech}</Tech>
                   </div>
                 }
