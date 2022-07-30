@@ -53,13 +53,13 @@ const Projects = () => {
       <div className="gallery">
         {data.map((items, index) => {
           return (
-            <div className="pics">
+            <div onClick={window.open(items.url)} className="pics">
               <HoverVideoPlayer
                 className="design"
                 videoSrc={items.vidSrc}
                 key={index}
                 pausedOverlay={
-                  <div onClick={window.open(items.url)} className="design">
+                  <div  className="design">
                     <Title>{items.head}</Title>
                     <Des>{items.description}</Des>
 
