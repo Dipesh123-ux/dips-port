@@ -17,6 +17,7 @@ const Projects = () => {
       description:" A blogging site for fans of science fiction films. This site has a user and admin dashboard with complete CRUD capabilities,JWT-based authentication, a commenting system, and Google social login.",
       tech: "NextJS, NodeJS, Express, MongoDB, Bootstrap",
       vidSrc: Vid1,
+      url : 'https://github.com/Dipesh123-ux/sci-fi-blogs'
     },{
       id: 2,
       head: "SHOPIFY",
@@ -24,6 +25,7 @@ const Projects = () => {
         "Shopify is a e-commerce website in which a user can buy and sell anything.It contains CRUD operations , user authentication , safe payments.",
       tech: "HTML CSS JS NODEJS EXPRESS MONGODB",
       vidSrc: Vid4,
+      url : 'https://github.com/Dipesh123-ux/Shopify'
     },
     {
       id: 3,
@@ -32,6 +34,7 @@ const Projects = () => {
         "Battlecards is a one player game in which a player can compare hero powers with villian's, One who get first five points will be considered as winner.",
       tech: "HTML CSS JS BOOTSTRAP",
       vidSrc: Vid2,
+      url : 'https://github.com/Dipesh123-ux/battlecards'
     },
     {
       id: 4,
@@ -40,6 +43,7 @@ const Projects = () => {
         "Streamer is a video streaming platform in which we can create any type of streams and serve it to the internet. It is a react-redux based application.",
       tech: "ReactJs Redux SemanticUI",
       vidSrc: Vid3,
+      url : 'https://github.com/Dipesh123-ux/streamer'
     },
  
   ];
@@ -55,7 +59,7 @@ const Projects = () => {
                 videoSrc={items.vidSrc}
                 key={index}
                 pausedOverlay={
-                  <div className="design">
+                  <div onClick={window.open(items.url)} className="design">
                     <Title>{items.head}</Title>
                     <Des>{items.description}</Des>
 
