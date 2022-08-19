@@ -121,6 +121,7 @@ const Label = styled.label`
   position: relative;
   margin-top: 15px;
   font-weight: bold;
+  color :white;
 `;
 
 const Textarea = styled.textarea`

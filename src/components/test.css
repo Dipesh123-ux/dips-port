@@ -83,12 +83,12 @@ img{
   height:40px;
   width:120px;
   background-color: rgba(255,255,255,0.2);
-  border: 2px solid #3b82f6;
+  border: 2px solid #50E3C2;
   backdrop-filter: blur(30px);
   margin:15px;
   cursor:pointer;
   z-index:1;
-  color:black;
+  color:white;
   
   }
 
@@ -105,7 +105,8 @@ img{
       bottom:0;
       opacity:0;
       content:"";
-      background: #3b82f6;
+      background: #50E3C2;
+  
   
   }
   
@@ -155,7 +156,7 @@ img{
     width: 100%;
     display: flex;
     flex-direction: column;
-    background : rgba(219, 234, 254);
+    background : #d8d8d8;
     color:white;
     border-radius: 7px;
     justify-content:center;
@@ -192,7 +193,7 @@ img{
     width:49px;
     align-items:center;
     border-radius: 50%;
-    background:#dbeafe;
+    background:#d8d8d8;
     backdrop-filter: blur(10px);
     top:40px;
 
@@ -246,3 +247,7 @@ img{
     transition: all 0.5s;
 }
 
+.robot{
+  width: 268;
+  height: 406; 
+}

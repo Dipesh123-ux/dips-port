@@ -62,7 +62,6 @@ const Projects = () => {
                   <div  className="design">
                     <Title>{items.head}</Title>
                     <Des>{items.description}</Des>
-
                     <Tech>{items.tech}</Tech>
                   </div>
                 }
@@ -84,7 +83,7 @@ const Title = styled.h3`
   }
 `;
 const Tech = styled.h5`
-  color: #3b82f6;
+  color: #50E3C2;
 
   @media (max-width: 500px) {
     position: relative;

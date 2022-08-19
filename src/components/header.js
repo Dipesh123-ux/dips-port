@@ -144,7 +144,7 @@ const Head = styled(motion.div)`
   display: flex;
   justify-content: space-between;
   align-items: center;
-  background: #3b82f6;
+  background: #50E3C2;
   box-shadow: 0 0 10px rgba(0, 0, 0);
 `;
 
@@ -159,7 +159,7 @@ const Nav = styled(motion.div)`
     height: 50vh;
     width: 100%;
     align-items: center;
-    background: #3b82f6;
+    background: #50E3C2;
     opacity: 0.8;
     margin-top: 57vh;
     margin-left: 0px;

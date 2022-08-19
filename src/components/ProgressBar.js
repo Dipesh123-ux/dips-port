@@ -32,6 +32,7 @@ const Title = styled.h3`
   position: relative;
   top: 30px;
   margin-right: 20px;
+  color:white;
 
   @media (max-width: 500px) {
     top: 20px;
@@ -55,7 +56,7 @@ const Progress = styled.div`
   }
 `;
 const ProgressDone = styled.div`
-  background: #3b82f6;
+  background: #50E3C2;
   border-radius: 20px;
   color: #fff;
   display: flex;

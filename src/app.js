@@ -32,7 +32,7 @@ const App = () => {
 const Container = styled.div`
   height: 100vh;
   width: auto;
-  background: #dbeafe;
+  /* background: #dbeafe; */
 `;
 
 export default App;

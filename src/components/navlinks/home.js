@@ -4,6 +4,8 @@ import styled from "styled-components";
 import { motion } from "framer-motion";
 import "../test.css";
 import resume from "./DipeshResume.pdf";
+import { Samy, SvgProxy } from "react-samy-svg";
+import RobotAnimated from "./robot-animated";
 
 const buttonVariant = {
   hidden: {
@@ -24,11 +26,14 @@ const buttonVariant = {
 const Home = () => {
   return (
     <Main>
+       <Robot>
+        <RobotAnimated />
+      </Robot>
       <Head>
         Hi , I'm &nbsp;
         <span>
           <Typewriter
-            style={{ fontFamily: "Times New Roman" }}
+            style={{ fontFamily: "Times New Roman"}}
             loop
             cursor
             cursorStyle="|"
@@ -39,6 +44,8 @@ const Home = () => {
           />
         </span>
       </Head>
+
+
 
       <Buttons>
         <motion.button
@@ -65,9 +72,11 @@ const Main = styled.div`
 const Head = styled.h1`
   position: relative;
   top: 30vh;
+  color:white;
 
   @media (max-width: 800px) {
     font-size: 20px;
+    top: 5vh;
   }
 `;
 
@@ -77,6 +86,16 @@ const Buttons = styled.div`
   justify-content: center;
   align-items: center;
   top: 50vh;
+  @media (max-width: 800px) {
+  
+    bottom: -5vh;
+  }
 `;
+
+const Robot = styled.div`
+position : fixed;
+top : 20vh;
+left:10vw;
+`
 
 export default Home;
