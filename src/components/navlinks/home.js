@@ -88,7 +88,7 @@ const Buttons = styled.div`
   top: 50vh;
   @media (max-width: 800px) {
   
-    bottom: -10vh;
+    bottom: -20vh;
   }
 `;
 
