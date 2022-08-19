@@ -83,7 +83,7 @@ const Title = styled.h3`
   }
 `;
 const Tech = styled.h5`
-  color: #50E3C2;
+  color: #27806c;
 
   @media (max-width: 500px) {
     position: relative;

@@ -50,6 +50,7 @@ const Languages = styled.div`
 const Head = styled.h3`
   position: relative;
   margin: auto;
+  color:white;
 `;
 
 export default Skills;

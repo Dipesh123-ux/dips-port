@@ -244,6 +244,7 @@ img{
 .circle:hover i
 {
     color: white;
+    
     transition: all 0.5s;
 }
 
