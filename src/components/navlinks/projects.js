@@ -14,7 +14,7 @@ const Projects = () => {
    {
       id: 1,
       head: "SCI-FI BLOGS",
-      description:" A blogging site for fans of science fiction films. This site has a user and admin dashboard with complete CRUD capabilities,JWT-based authentication, a commenting system, and Google social login.",
+      description:" A blogging site that has a user and admin dashboard with complete CRUD capabilities,JWT-based authentication, a commenting system, and Google social login.",
       tech: "NextJS, NodeJS, Express, MongoDB, Bootstrap",
       vidSrc: Vid1,
       url : 'https://github.com/Dipesh123-ux/sci-fi-blogs'
